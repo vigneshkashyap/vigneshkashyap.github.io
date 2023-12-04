@@ -1,0 +1,16 @@
+{
+    "social": [
+        {
+            "network" : "linkedin",
+            "href": "https://www.linkedin.com/in/vigneshkashyap/"
+        },
+        {
+            "network" : "github",
+            "href": "https://github.com/vigneshkashyap"
+        },
+        {
+            "network" : "email",
+            "href": "mailto:vignesh.t.kashyap@gmail.com"
+        }
+    ]
+}

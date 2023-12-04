@@ -1,0 +1,22 @@
+{
+    "education":[
+        {
+            "title": "Aug 2018 - May 2022",
+            "cardTitle": "B.Tech, Software Engineering",
+            "cardSubtitle":"Delhi Technological University (Formerly DCE)",
+            "cardDetailedText": "CGPA - 8.75",
+            "icon" : {
+                "src": "images/education/dtu.png"
+            }
+        },
+        {
+            "title": "May 2018",
+            "cardTitle": "High School",
+            "cardSubtitle":"Indian School Al-Ghubra",
+            "cardDetailedText": "Marks - 96%",
+            "icon" : {
+                "src": "images/education/isg.png"
+            }
+        }
+    ]
+}
