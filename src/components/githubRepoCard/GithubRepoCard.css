@@ -76,8 +76,8 @@
 }
 
 .repo-details {
-  display: flex;
-  flex-direction: row;
+  /* display: flex;
+  flex-direction: row; */
 }
 
 .repo-creation-date {
@@ -89,13 +89,14 @@
 }
 
 .repo-languages {
-  margin-left: auto;
-  margin-right: 0px;
+  /* /* margin-left: auto; */
+  /* margin-right: 10px; */
 }
 
 @media (max-width: 1200px) {
   .repo-card-div {
     flex: 1 1 40%;
+    border-radius: 20px;
   }
 }
 
