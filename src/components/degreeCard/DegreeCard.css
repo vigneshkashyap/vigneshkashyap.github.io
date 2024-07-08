@@ -23,11 +23,11 @@
   width: 200px;
   height: auto;
   border-radius: 50%;
-  padding: 10px;
-  border: 1px solid #d9dbdf;
+  padding: 5px;
+  border: 0.5px solid #d9dbdf;
   /* background-color: #6c63ff; */
   /* background: transparent; */
-  box-shadow: 5px 5px 5px #d9dbdf;
+  /* box-shadow: 5px 5px 5px #d9dbdf; */
 }
 
 .body-header {
@@ -76,9 +76,10 @@
   border-bottom: 1px solid #d9dbdf;
   border-left: 1px solid #d9dbdf;
   border-right: 1px solid #d9dbdf;
+  border-top: 1px solid #d9dbdf;
   border-radius: 7px;
   margin: 10px;
-  box-shadow: 5px 5px 5px #d9dbdf;
+  /* box-shadow: 5px 5px 5px #d9dbdf; */
 }
 
 .visit-btn {
