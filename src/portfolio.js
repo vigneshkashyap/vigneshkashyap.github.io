@@ -421,20 +421,23 @@ const publicationsHeader = {
 
 const publications = {
   data: [
-    // {
-    //   id: "neuro-symbolic-sudoku-solver",
-    //   name: "Neuro-Symbolic Sudoku Solver",
-    //   createdAt: "2023-07-02T00:00:00Z",
-    //   description: "Paper published in KDD KiML 2023",
-    //   url: "https://arxiv.org/abs/2307.00653",
-    // },
-    // {
-    //   id: "mdp-diffusion",
-    //   name: "MDP-Diffusion",
-    //   createdAt: "2023-09-19T00:00:00Z",
-    //   description: "Blog published in Paperspace",
-    //   url: "https://blog.paperspace.com/mdp-diffusion/",
-    // },
+    {
+      id: "dcgan-fruits",
+      name:
+        "Image Generation Using Deep Convolutional Generative Adversarial Networks",
+      createdAt: "2023-07-02T00:00:00Z",
+      description:
+        "Paper published in Research Advances in Intelligent Computing, Volume 1, CRC Press",
+      url: "https://doi.org/10.1201/9781003320340",
+    },
+    {
+      id: "software-defect-predeiction-sampling",
+      name:
+        "Comparative study of Sampling Techniques for Software Defect Prediction",
+      createdAt: "2023-09-19T00:00:00Z",
+      description: "Paper published in ICACCS, Coimbatore",
+      url: "10.1109/ICACCS54159.2022.9785238",
+    },
     // {
     //   id: "consistency-models",
     //   name: "Consistency Models",
