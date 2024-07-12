@@ -40,7 +40,7 @@
   line-height: normal;
 }
 .header .logo-name {
-  font-family: "Gauge Heavy";
+  font-family: "Google Sans Bold";
   font-weight: bold;
   padding: 0 10px;
   /* color: #55198b; */
@@ -49,7 +49,7 @@
 /* menu */
 
 .menu {
-  font-family: "Gauge Heavy";
+  font-family: "Google Sans Bold";
   font-size: larger;
 }
 
