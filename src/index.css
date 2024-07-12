@@ -40,6 +40,11 @@
   src: local("Google Sans Regular"),
     url("./assests/fonts/GoogleSans-Regular.ttf") format("woff");
 }
+@font-face {
+  font-family: "Gauge Heavy";
+  src: local("Gauge Heavy"),
+    url("./assests/fonts/Gauge-Heavy.otf") format("otf");
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;

@@ -1,13 +1,43 @@
 import React from "react";
 import "./Greeting.css";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
-import Button from "../../components/button/Button";
 import { greeting } from "../../portfolio";
 import { Fade } from "react-reveal";
 import FeelingProud from "./FeelingProud";
+import { useState, useEffect } from "react";
 
 export default function Greeting(props) {
   const theme = props.theme;
+  const [textIndex, setTextIndex] = useState(0);
+  const [typedText, setTypedText] = useState("");
+  useEffect(() => {
+    const texts = greeting.roles;
+
+    let currentIndex = 0;
+    let intervalId;
+
+    const startTyping = () => {
+      const currentText = texts[textIndex];
+      intervalId = setInterval(() => {
+        if (currentIndex < currentText.length) {
+          setTypedText((prevText) => prevText + currentText[currentIndex]);
+          currentIndex++;
+        } else {
+          clearInterval(intervalId);
+          setTimeout(() => {
+            setTypedText("");
+            currentIndex = 0;
+            setTextIndex((prevIndex) => (prevIndex + 1) % texts.length); // Rotate to the next text
+            startTyping();
+          }, 2000); // Reset typing after 2 seconds
+        }
+      }, 100);
+    };
+
+    startTyping();
+
+    return () => clearInterval(intervalId);
+  }, [textIndex]);
   return (
     <Fade bottom duration={2000} distance="40px">
       <div className="greet-main" id="greeting">
@@ -26,29 +56,13 @@ export default function Greeting(props) {
                 className="greeting-text-p subTitle"
                 style={{ color: theme.secondaryText }}
               >
-                {greeting.subTitle}
+                <span>I'm a </span>
+                {typedText}
               </p>
               <SocialMedia theme={theme} />
-              {/* <div className="portfolio-repo-btn-div">
-                <Button
-                  text="⭐ Star Me On Github"
-                  newTab={true}
-                  href={greeting.portfolio_repository}
-                  theme={theme}
-                  className="portfolio-repo-btn"
-                />
-              </div> */}
-              {/* <div className="button-greeting-div">
-              <Button text="Contact me" href="#contact" />
-              <Button text="See my resume" newTab={true} href={greeting.resumeLink} />
-            </div> */}
             </div>
           </div>
           <div className="greeting-image-div">
-            {/* <img
-							alt="saad sitting on table"
-							src={require("../../assests/images/feelingProud.svg")}
-						></img> */}
             <FeelingProud theme={theme} />
           </div>
         </div>
