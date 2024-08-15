@@ -45,6 +45,21 @@
   src: local("Gauge Heavy"),
     url("./assests/fonts/Gauge-Heavy.otf") format("otf");
 }
+@font-face {
+  font-family: "Gauge Heavy";
+  src: local("Gauge Heavy"),
+    url("./assests/fonts/Gauge-Heavy.otf") format("otf");
+}
+/* @font-face {
+  font-family: "Futura Bold";
+  src: local("Futura Bold"),
+    url("./assests/fonts/Futura\ Bold\ font.ttf") format("woff");
+}
+@font-face {
+  font-family: "Futura Book";
+  src: local("Futura Book"),
+    url("./assests/fonts/Futura\ Book\ font.ttf") format("woff");
+} */
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
