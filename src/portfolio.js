@@ -92,24 +92,24 @@ const skills = {
       ],
       softwareSkills: [
         {
-          skillName: "HTML5",
-          fontAwesomeClassname: "simple-icons:html5",
+          skillName: "Java",
+          fontAwesomeClassname: "ant-design:java-outlined",
           style: {
-            color: "#E34F26",
+            color: "#ffffff",
           },
         },
         {
-          skillName: "CSS3",
-          fontAwesomeClassname: "fa-css3",
+          skillName: "Spring Boot",
+          fontAwesomeClassname: "bxl:spring-boot",
           style: {
-            color: "#1572B6",
+            color: "#00FF00",
           },
         },
         {
-          skillName: "Sass",
-          fontAwesomeClassname: "simple-icons:sass",
+          skillName: "C++",
+          fontAwesomeClassname: "simple-icons:cplusplus",
           style: {
-            color: "#CC6699",
+            color: "#ffffff",
           },
         },
         {
@@ -128,6 +128,20 @@ const skills = {
           },
         },
         {
+          skillName: "Angular",
+          fontAwesomeClassname: "vscode-icons:file-type-angular",
+          style: {
+            color: "#61DAFB",
+          },
+        },
+        {
+          skillName: "Redis",
+          fontAwesomeClassname: "logos:redis",
+          style: {
+            color: "#663399",
+          },
+        },
+        {
           skillName: "NodeJS",
           fontAwesomeClassname: "devicon-plain:nodejs-wordmark",
           style: {
@@ -135,29 +149,58 @@ const skills = {
           },
         },
         {
-          skillName: "NPM",
-          fontAwesomeClassname: "simple-icons:npm",
+          skillName: "Cassandra",
+          fontAwesomeClassname: "devicon-plain:cassandra",
           style: {
-            color: "#CB3837",
+            color: "#4285f4",
           },
         },
         {
-          skillName: "Yarn",
-          fontAwesomeClassname: "simple-icons:yarn",
+          skillName: "MySQL",
+          fontAwesomeClassname: "logos:mysql",
+          style: {
+            color: "#02569B",
+          },
+        },
+        {
+          skillName: "Oracle DB",
+          fontAwesomeClassname: "devicon:oracle",
+          style: {
+            color: "#02569B",
+          },
+        },
+        {
+          skillName: "HDFS",
+          fontAwesomeClassname: "devicon:hadoop-wordmark",
           style: {
             color: "#2C8EBB",
           },
         },
+
         {
-          skillName: "Gatsby",
-          fontAwesomeClassname: "simple-icons:gatsby",
+          skillName: "Presto",
+          fontAwesomeClassname: "logos:presto-icon",
           style: {
-            color: "#663399",
+            color: "#02569B",
           },
         },
         {
-          skillName: "Flutter",
-          fontAwesomeClassname: "simple-icons:flutter",
+          skillName: "Spark",
+          fontAwesomeClassname: "logos:apache-spark",
+          style: {
+            color: "#02569B",
+          },
+        },
+        {
+          skillName: "Kubernetes",
+          fontAwesomeClassname: "logos:kubernetes",
+          style: {
+            color: "#02569B",
+          },
+        },
+        {
+          skillName: "Consul",
+          fontAwesomeClassname: "devicon-plain:consul-wordmark",
           style: {
             color: "#02569B",
           },
