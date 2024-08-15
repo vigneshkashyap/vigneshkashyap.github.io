@@ -6,9 +6,10 @@
 }
 .greet-main {
   width: 90%;
+  height: 100vh;
   padding: 20px 10px;
   margin: 0px auto;
-  margin-top: 2rem;
+  margin-top: 15rem;
 }
 
 .gretting-main {

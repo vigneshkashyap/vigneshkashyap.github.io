@@ -63,7 +63,7 @@ export default function Greeting(props) {
             </div>
           </div>
           <div className="greeting-image-div">
-            <FeelingProud theme={theme} />
+            {/* <FeelingProud theme={theme} /> */}
           </div>
         </div>
       </div>

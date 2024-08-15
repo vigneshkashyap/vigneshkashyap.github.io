@@ -21,17 +21,17 @@ class Projects extends Component {
     const theme = this.props.theme;
     return (
       <div className="projects-main">
-        <Header theme={theme} />
+        {/* <Header theme={theme} /> */}
         <div className="basic-projects">
           <Fade bottom duration={2000} distance="40px">
             <div className="projects-heading-div">
-              <div className="projects-heading-img-div">
-                {/* <img
+              {/* <div className="projects-heading-img-div">
+                { <img
 											src={require(`../../assests/images/${projectsHeader["avatar_image_path"]}`)}
 											alt=""
-										/> */}
+										/> }
                 <ProjectsImg theme={theme} />
-              </div>
+              </div> */}
               <div className="projects-heading-text-div">
                 <h1
                   className="projects-heading-text"
@@ -92,7 +92,7 @@ class Projects extends Component {
           })}
         </div>
 
-        <Footer theme={this.props.theme} onToggle={this.props.onToggle} />
+        {/* <Footer theme={this.props.theme} onToggle={this.props.onToggle} /> */}
         <TopButton theme={this.props.theme} />
       </div>
     );

@@ -1,5 +1,5 @@
 .skills-main-div {
-  display: flex;
+  /* display: flex; */
   overflow: hidden;
 }
 
@@ -8,6 +8,9 @@
   line-height: normal;
   font-family: "Google Sans Regular";
   text-align: center;
+}
+.skill-collection {
+  display: flex;
 }
 
 .skills-text {
@@ -27,7 +30,7 @@
 .skills-image-div > * {
   max-width: 100%;
   height: auto;
-  margin-top: 100px;
+  /* margin-top: 100px; */
 }
 
 .skills-heading {

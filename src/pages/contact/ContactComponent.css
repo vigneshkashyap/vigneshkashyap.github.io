@@ -1,8 +1,10 @@
 .contact-main {
+  height: 70vh;
   width: 100%;
 }
 
 .basic-contact {
+  margin-top: 30vh;
   margin-left: 5%;
   margin-right: 5%;
 }

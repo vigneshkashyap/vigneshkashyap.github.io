@@ -22,14 +22,14 @@ class SkillSection extends Component {
   render() {
     const theme = this.props.theme;
     return (
-      <div>
+      <div className="skill-collection">
         {skills.data.map((skill, i) => {
           return (
             <div key={i} className="skills-main-div">
               <Fade left duration={2000}>
-                <div className="skills-image-div">
+                {/* <div className="skills-image-div">
                   <GetSkillSvg fileName={skill.fileName} theme={theme} />
-                </div>
+                </div> */}
               </Fade>
 
               <div className="skills-text-div">

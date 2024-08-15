@@ -139,6 +139,20 @@ export const orangeTheme = {
   splashBg: "#99401F",
 };
 
+export const myTheme = {
+  body: "#000000",
+  text: "#ffffff",
+  expTxtColor: "#000a12",
+  highlight: "#FFB59A",
+  dark: "#33150A",
+  secondaryText: "#CC552A",
+  imageHighlight: "#FF6B35",
+  compImgHighlight: "#E6E6E6",
+  jacketColor: "#d7263d",
+  headerColor: "#000000",
+  splashBg: "#99401F",
+};
+
 export const yellowTheme = {
   body: "#FFD95D",
   text: "#5f4339",
@@ -182,17 +196,17 @@ export const materialLightTheme = {
 };
 
 export const materialTealTheme = {
-  body: "#1d2133",
-  text: "#aeaeae",
+  body: "#0F111A",
+  text: "#ffffff",
   expTxtColor: "#ffffff",
   highlight: "#4285f4",
-  dark: "#000000",
+  dark: "#000000  ",
   secondaryText: "#ffffff",
-  imageHighlight: "#000000",
-  compImgHighlight: "#000000",
+  imageHighlight: "#4285f4",
+  compImgHighlight: "#ffffff",
   jacketColor: "#000000",
-  headerColor: "#000000",
+  headerColor: "#0F111A",
   splashBg: "#05505E",
 };
 
-export const chosenTheme = materialDarkTheme;
+export const chosenTheme = materialTealTheme;

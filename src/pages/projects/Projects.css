@@ -1,5 +1,6 @@
 .projects-main {
   width: 100%;
+  height: 100%;
   text-align: center;
 }
 
@@ -96,9 +97,9 @@
     font-size: 20px;
   }
 
-  .projects-heading-div {
+  /* .projects-heading-div {
     flex-direction: column;
-  }
+  } */
 
   .projects-header-detail-text {
     font-size: 16px;
