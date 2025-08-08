@@ -1,9 +1,9 @@
 import React from "react";
 import { FaFacebook } from "react-icons/fa";
-import { SiAirtel } from "react-icons/si";
+import { SiAirtel, SiMeta } from "react-icons/si";
 
 const companyIcons = {
-  Meta: { icon: <FaFacebook size={22} className="text-[#1877F2]" /> },       // brand color
+  Meta: { icon: <SiMeta size={22} className="text-[#1877F2]" /> },       // brand color
   "Airtel Digital": { icon: <SiAirtel size={22} className="text-[#E40046]" /> },
 };
 

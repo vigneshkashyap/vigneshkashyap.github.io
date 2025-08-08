@@ -1,7 +1,7 @@
 {
   "name": "Vignesh Kashyap",
-  "title": "Software Engineer | Distributed Systems & Infra Specialist",
-  "about": "Master's student in Computer Science at Texas A&M University with professional experience at Meta and Airtel. I design and build high-performance distributed systems, scalable infrastructure, and resilient backend architectures that handle billions of transactions with near-zero downtime.",
+  "title": "Software Engineer | Focused on Distributed Systems & Infrastructure",
+  "about": "Master’s student in Computer Science at Texas A&M University with industry experience at Meta and Airtel. Specializing in designing and optimizing high-performance distributed systems, scalable infrastructure, and fault-tolerant backend architectures that reliably process billions of transactions with minimal latency and near-zero downtime.",
   "links": {
     "GitHub": "https://github.com/vigneshkashyap",
     "LinkedIn": "https://linkedin.com/in/vigneshkashyap",
@@ -12,7 +12,7 @@
       "role": "Software Engineer Intern",
       "company": "Meta",
       "period": "May 2025 – Aug 2025",
-      "description": "Worked with the Metrics Reporting Infra team in Monetization. Automated classification of metrics, saving 2.5 employee-years annually. Built a cross-repo auto-sync utility removing manual intervention (1.5 employee-years saved). Optimized config generation from 1 hour to 5 minutes via caching and async execution."
+      "description": "Worked with the Metrics Reporting Infra team in Monetization"
     },
     {
       "role": "Software Engineer",
@@ -21,6 +21,21 @@
       "description": "Delivered $40M/year savings by migrating to an open-source BI solution processing 300M+ records/day. Engineered high-throughput SMS adapter scaling to 1B messages/day at 700 TPS per node, saving $100k/year. Led migration to Kubernetes with 99.999% uptime and auto-scaling to 10M+ requests/day."
     }
   ],
+  "education": [
+  {
+    "degree": "Master of Science in Computer Science",
+    "school": "Texas A&M University",
+    "period": "Aug 2024 – May 2026",
+    "location": "College Station, TX"
+  },
+  {
+    "degree": "Bachelor of Technology in Software Engineering",
+    "school": "Delhi Technological University",
+    "period": "Aug 2018 – May 2022",
+    "location": "New Delhi, India"
+  }
+  ],
+
   "projects": [
     {
       "name": "Tiny SNS",

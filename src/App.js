@@ -4,6 +4,7 @@ import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import ThemeToggle from "./components/ThemeToggle";
 import config from "./config.json";
+import Education from "./components/Education";
 
 export default function App() {
   return (
@@ -17,6 +18,7 @@ export default function App() {
           links={config?.links || {}}
         />
         <Experience experience={config?.experience || []} />
+        <Education education={config?.education || []} />
         <Projects projects={config?.projects || []} />
       </main>
     </div>

@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.0df83e48.css",
-    "main.js": "/static/js/main.a6c448ce.js",
+    "main.css": "/static/css/main.46cb638f.css",
+    "main.js": "/static/js/main.6119b4d0.js",
+    "static/media/dtu-logo.png": "/static/media/dtu-logo.92481e117eea5fd6db4c.png",
+    "static/media/tamu-logo.png": "/static/media/tamu-logo.3c9ddc7758f0bdbda999.png",
     "index.html": "/index.html",
-    "main.0df83e48.css.map": "/static/css/main.0df83e48.css.map",
-    "main.a6c448ce.js.map": "/static/js/main.a6c448ce.js.map"
+    "main.46cb638f.css.map": "/static/css/main.46cb638f.css.map",
+    "main.6119b4d0.js.map": "/static/js/main.6119b4d0.js.map"
   },
   "entrypoints": [
-    "static/css/main.0df83e48.css",
-    "static/js/main.a6c448ce.js"
+    "static/css/main.46cb638f.css",
+    "static/js/main.6119b4d0.js"
   ]
 }
