@@ -43,6 +43,12 @@
       "description": "C++/gRPC-based fault-tolerant distributed system supporting multiple clusters via server heartbeats and RabbitMQ-based real-time synchronization. Achieved low latency and high availability for follow, unfollow, and timeline features.",
       "link": "https://github.com/vigneshkashyap/tiny-sns",
       "github": "https://github.com/vigneshkashyap/tiny-sns"
+    },
+    {
+      "name": "KV Store",
+      "description": "Learning and Building a KV Store in C++ with Write Ahead Log, SSTable, Snapshots and Bloom Filters",
+      "link": "https://github.com/vigneshkashyap/kv-store",
+      "github": "https://github.com/vigneshkashyap/kv-store"
     }
   ]
 }
