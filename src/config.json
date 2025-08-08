@@ -1,0 +1,32 @@
+{
+  "name": "Vignesh Kashyap",
+  "title": "Software Engineer | Distributed Systems & Infra Specialist",
+  "about": "Master's student in Computer Science at Texas A&M University with professional experience at Meta and Airtel. I design and build high-performance distributed systems, scalable infrastructure, and resilient backend architectures that handle billions of transactions with near-zero downtime.",
+  "links": {
+    "GitHub": "https://github.com/vigneshkashyap",
+    "LinkedIn": "https://linkedin.com/in/vigneshkashyap",
+    "Email": "mailto:vignesh.t.kashyap@gmail.com"
+  },
+  "experience": [
+    {
+      "role": "Software Engineer Intern",
+      "company": "Meta",
+      "period": "May 2025 – Aug 2025",
+      "description": "Worked with the Metrics Reporting Infra team in Monetization. Automated classification of metrics, saving 2.5 employee-years annually. Built a cross-repo auto-sync utility removing manual intervention (1.5 employee-years saved). Optimized config generation from 1 hour to 5 minutes via caching and async execution."
+    },
+    {
+      "role": "Software Engineer",
+      "company": "Airtel Digital",
+      "period": "Jul 2022 – Jul 2024",
+      "description": "Delivered $40M/year savings by migrating to an open-source BI solution processing 300M+ records/day. Engineered high-throughput SMS adapter scaling to 1B messages/day at 700 TPS per node, saving $100k/year. Led migration to Kubernetes with 99.999% uptime and auto-scaling to 10M+ requests/day."
+    }
+  ],
+  "projects": [
+    {
+      "name": "Tiny SNS",
+      "description": "C++/gRPC-based fault-tolerant distributed system supporting multiple clusters via server heartbeats and RabbitMQ-based real-time synchronization. Achieved low latency and high availability for follow, unfollow, and timeline features.",
+      "link": "https://github.com/vigneshkashyap/tiny-sns",
+      "github": "https://github.com/vigneshkashyap/tiny-sns"
+    }
+  ]
+}
