@@ -1,16 +1,17 @@
 import React from "react";
-import { FiGithub, FiLinkedin, FiMail } from "react-icons/fi";
+import { FiGithub, FiLinkedin, FiMail, FiFileText } from "react-icons/fi";
 
 const iconFor = (label) => {
   switch (label) {
     case "GitHub":   return <FiGithub size={22} />;
     case "LinkedIn": return <FiLinkedin size={22} />;
     case "Email":    return <FiMail size={22} />;
+    case "Resume":   return <FiFileText size={22} />;
     default:         return null;
   }
 };
 
-export default function Hero({ name = "", title = "", about = "", links = {} }) {
+export default function Hero({ name = "", title = "", about = "", links = {}, resumeUrl = "" }) {
   const entries = (links && typeof links === "object") ? Object.entries(links) : [];
 
   return (
@@ -19,7 +20,7 @@ export default function Hero({ name = "", title = "", about = "", links = {} }) 
       <h2 className="text-xl text-gray-700 dark:text-gray-400">{title}</h2>
       <p className="text-lg text-gray-800 dark:text-gray-300">{about}</p>
 
-      {entries.length > 0 && (
+      {(entries.length > 0 || resumeUrl) && (
         <div className="flex items-center gap-5">
           {entries.map(([label, url]) => (
             <a
@@ -34,6 +35,19 @@ export default function Hero({ name = "", title = "", about = "", links = {} }) 
               {iconFor(label) ?? <span className="text-sm">{label}</span>}
             </a>
           ))}
+
+          {resumeUrl && (
+            <a
+              href={resumeUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Resume"
+              title="Resume"
+              className="text-gray-700 hover:text-black dark:text-gray-300 dark:hover:text-white transition-colors"
+            >
+              <FiFileText size={22} />
+            </a>
+          )}
         </div>
       )}
     </section>
